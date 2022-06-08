@@ -1,0 +1,112 @@
+.home{
+  font-weight: 900;
+  
+}
+.container2{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+.plus{
+  font-size: 20px;
+}
+img{
+  width: 80px;
+  height:80px;
+}
+table {
+  align-content: center;
+  row-gap: 2px;
+  
+}
+table th,td{
+  text-align: center;
+  padding: 10px;
+}
+tbody td{
+  border: .1px solid;
+}
+
+
+thead{
+  background-color: brown;
+  color: white;
+  
+}
+.container{
+  margin-left: 70px;
+  margin-top: 40px;
+}
+.heading{
+  font-family:sans-serif;
+  font-size: 38px;
+
+}
+.form-horizontal{
+  float: left;
+  font-size: 18px;
+  
+  
+}
+
+.form-group{
+  display:grid;
+  grid-template-columns: repeat(3,200px);
+  gap: 20px;
+  
+}
+.addition{
+  position: absolute;
+  float: right;
+}
+.wspace{
+  margin:100px 20px 0 100px;
+}
+.buttons{
+  position: absolute;
+  
+}
+.imag{
+  
+  background-color: grey;
+  
+  border:none;
+  padding:5px 30px;
+
+}
+
+.multiselect {
+  width: 200px;
+}
+
+.selectBox {
+  position: relative;
+  
+}
+
+.selectBox select {
+  width: 100%;
+  font-weight: bold;
+}
+
+.overSelect {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#checkboxes {
+  display: none;
+  border: 1px #dadada solid;
+}
+
+#checkboxes label {
+  display: block;
+}
+
+#checkboxes label:hover {
+  background-color: #1e90ff;
+}
